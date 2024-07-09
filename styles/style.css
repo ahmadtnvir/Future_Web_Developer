@@ -130,3 +130,23 @@ button {
 .service-1 > div > p {
   margin-bottom: 32px;
 }
+
+.inspiraton_section {
+  width: 90%;
+  margin: 90px auto;
+  padding: 80px 95px;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 10px;
+}
+
+.video {
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  padding: 32px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.video > iframe {
+  border-radius: 10px;
+}
