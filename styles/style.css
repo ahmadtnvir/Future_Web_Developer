@@ -14,6 +14,19 @@ p {
   opacity: 0.7;
 }
 
+h4 {
+  color: #0d1321;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+h5 {
+  color: #0d1321b2;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
 .header_section {
   width: 100%;
 }
@@ -79,4 +92,41 @@ button {
   border: none;
   border-radius: 8px;
   margin-top: 32px;
+}
+
+/* ------ Main Section -------- */
+.main_section {
+  width: 90%;
+  margin: 90px auto;
+  padding: 80px 95px;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 10px;
+}
+
+.webDev_title > h4 {
+  margin-bottom: 24px;
+}
+
+.webDev_title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  margin-bottom: 50px;
+  background-color: #f9f5f5;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.service-1 > div > h5 {
+  margin-bottom: 16px;
+}
+
+.service-1 > div > p {
+  margin-bottom: 32px;
 }
