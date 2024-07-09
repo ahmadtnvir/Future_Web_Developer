@@ -5,3 +5,78 @@
   box-sizing: border-box;
   font-family: "Azeret Mono", monospace;
 }
+
+p {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.header_section {
+  width: 100%;
+}
+
+.my_resume {
+  width: 80%;
+  margin: 40px auto 35px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my_resume > h3 {
+  color: #0d1321;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+button {
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 24px;
+  border: 1px solid #0d1321;
+  border-radius: 8px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.banner {
+  width: 100%;
+  min-height: 650px;
+  background-image: url("../assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 80%;
+  text-align: center;
+  padding: 40px;
+}
+
+.title > h2 {
+  color: #0d1321;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  margin-bottom: 24px;
+}
+
+#contact_btn {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 21px 24px;
+  background-color: #0d1321;
+  border: none;
+  border-radius: 8px;
+  margin-top: 32px;
+}
