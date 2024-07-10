@@ -6,6 +6,7 @@
   font-family: "Azeret Mono", monospace;
 }
 
+/* ----- Shared Styles ----- */
 p {
   color: #0d1321;
   font-size: 16px;
@@ -26,7 +27,7 @@ h5 {
   font-weight: 700;
   line-height: 36px;
 }
-
+/* ----- Header ----- */
 .header_section {
   width: 100%;
 }
@@ -298,6 +299,8 @@ span {
   padding: 17px 20px;
   cursor: pointer;
 }
+
+/* ----- Footer ----- */
 
 .footer_section {
   width: 100%;
