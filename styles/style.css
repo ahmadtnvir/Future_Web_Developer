@@ -95,6 +95,7 @@ button {
 }
 
 /* ------ Main Section -------- */
+
 .main_section {
   width: 90%;
   margin: 90px auto;
@@ -131,7 +132,7 @@ button {
   margin-bottom: 32px;
 }
 
-.inspiraton_section {
+.inspirational_section {
   width: 90%;
   margin: 90px auto;
   padding: 80px 95px;
@@ -148,5 +149,74 @@ button {
 }
 
 .video > iframe {
+  border-radius: 10px;
+}
+
+.current_target_section {
+  background-color: rgba(13, 19, 33, 0.02);
+  width: 90%;
+  margin: 0 auto;
+  padding: 80px 95px;
+  border-radius: 10px;
+}
+
+.target_title {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.target_title > h4 {
+  margin-bottom: 24px;
+}
+
+.skills_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+  gap: 24px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 40px;
+}
+
+.skill > img {
+  margin-bottom: 24px;
+}
+
+.skill > span {
+  margin-bottom: 8px;
+  color: #0d1321;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.skill > p {
+  margin-bottom: 24px;
+}
+
+.skill > a {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#skill_1 {
+  background-color: #ff4c1e0d;
+  border-radius: 10px;
+}
+#skill_2 {
+  background-color: #004ce80d;
+  border-radius: 10px;
+}
+#skill_3 {
+  background-color: #ffdf000d;
   border-radius: 10px;
 }
