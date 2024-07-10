@@ -225,3 +225,72 @@ span {
 .next > img {
   width: 30%;
 }
+
+.support_section {
+  width: 90%;
+  margin: 90px auto;
+  padding: 80px 95px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.support_container {
+  width: 80%;
+  text-align: center;
+}
+
+.support_container > h3 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.support_container > p {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.support_container > div > input {
+  padding: 19px 20px;
+  color: #0d132166;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #0d132126;
+  border-radius: 8px;
+  outline: none;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+#feedback {
+  flex: 1;
+}
+
+#submit {
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px;
+  cursor: pointer;
+}
