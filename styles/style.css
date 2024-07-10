@@ -110,6 +110,8 @@ button {
 
 .webDev_title {
   text-align: center;
+  width: 80%;
+  margin: 0 auto;
   margin-bottom: 50px;
 }
 
@@ -132,7 +134,9 @@ button {
   margin-bottom: 32px;
 }
 
-.inspirational_section {
+.inspirational_section,
+.current_target_section,
+.next_target_section {
   width: 90%;
   margin: 90px auto;
   padding: 80px 95px;
@@ -150,24 +154,6 @@ button {
 
 .video > iframe {
   border-radius: 10px;
-}
-
-.current_target_section {
-  background-color: rgba(13, 19, 33, 0.02);
-  width: 90%;
-  margin: 0 auto;
-  padding: 80px 95px;
-  border-radius: 10px;
-}
-
-.target_title {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.target_title > h4 {
-  margin-bottom: 24px;
 }
 
 .skills_container {
@@ -189,7 +175,7 @@ button {
   margin-bottom: 24px;
 }
 
-.skill > span {
+span {
   margin-bottom: 8px;
   color: #0d1321;
   font-size: 24px;
@@ -197,11 +183,13 @@ button {
   line-height: 36px;
 }
 
-.skill > p {
+.skill > p,
+.next > div > p {
   margin-bottom: 24px;
 }
 
-.skill > a {
+.skill > a,
+.next > div > a {
   color: #0d1321;
   font-size: 16px;
   font-weight: 700;
@@ -212,11 +200,28 @@ button {
   background-color: #ff4c1e0d;
   border-radius: 10px;
 }
+
 #skill_2 {
   background-color: #004ce80d;
   border-radius: 10px;
 }
+
 #skill_3 {
   background-color: #ffdf000d;
   border-radius: 10px;
+}
+
+.next {
+  border: 1px solid #0d132126;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.next > img {
+  width: 30%;
 }
